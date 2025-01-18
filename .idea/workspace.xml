@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a59db05a-6ceb-4a02-ac76-95ec2e6cd06a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day13_module/day13module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_module/my_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14_game_budi/day14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16_Class/hari16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16_Class/hari16_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_game_budi/bahan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_game_budi/game2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_game_budi/hangman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_game_budi/jawaban.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_game_budi/pertanyaan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/hari12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/hari12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/history_game.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/history_game.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hari1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hari1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hari10.py" beforeDir="false" afterPath="$PROJECT_DIR$/hari10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hari11.py" beforeDir="false" afterPath="$PROJECT_DIR$/hari11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hari12.py" beforeDir="false" afterPath="$PROJECT_DIR$/hari12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14_game_budi/day14.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14_game_budi/day14.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +43,14 @@
   "keyToString": {
     "Python.day13module.executor": "Run",
     "Python.day14.executor": "Run",
+    "Python.game2.executor": "Run",
+    "Python.hangman.executor": "Run",
     "Python.hari1.executor": "Run",
     "Python.hari10.executor": "Run",
     "Python.hari11.executor": "Run",
     "Python.hari12.executor": "Run",
+    "Python.hari16.executor": "Run",
+    "Python.hari16_2.executor": "Run",
     "Python.hari3.executor": "Run",
     "Python.hari4.executor": "Run",
     "Python.hari5.executor": "Run",
@@ -72,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Fendy\BahasaPemrograman\python\opencv\Day16_Class" />
       <recent name="D:\Fendy\BahasaPemrograman\python\opencv" />
     </key>
   </component>
@@ -108,7 +112,9 @@
       <workItem from="1736773221370" duration="3938000" />
       <workItem from="1736844437382" duration="2515000" />
       <workItem from="1736860543293" duration="5659000" />
-      <workItem from="1736946181732" duration="7345000" />
+      <workItem from="1736946181732" duration="9143000" />
+      <workItem from="1737033520496" duration="5311000" />
+      <workItem from="1737207373402" duration="6220000" />
     </task>
     <servers />
   </component>
@@ -117,21 +123,25 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opencv$hari4.coverage" NAME="hari4 Coverage Results" MODIFIED="1736173123001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv$game2.coverage" NAME="game2 Coverage Results" MODIFIED="1736955827290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_game_budi" />
     <SUITE FILE_PATH="coverage/opencv$opencv_finger.coverage" NAME="opencv-finger Coverage Results" MODIFIED="1736469899989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$virtual_mouse_control.coverage" NAME="virtual-mouse-control Coverage Results" MODIFIED="1736469728878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari9.coverage" NAME="hari9 Coverage Results" MODIFIED="1736647589682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$main.coverage" NAME="main Coverage Results" MODIFIED="1736000292572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari12.coverage" NAME="hari12 Coverage Results" MODIFIED="1736866427120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari1.coverage" NAME="hari1 Coverage Results" MODIFIED="1736845045857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/opencv$day14.coverage" NAME="day14 Coverage Results" MODIFIED="1736953442655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_game_budi" />
+    <SUITE FILE_PATH="coverage/opencv$day14.coverage" NAME="day14 Coverage Results" MODIFIED="1736955655873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_game_budi" />
     <SUITE FILE_PATH="coverage/opencv$hari8.coverage" NAME="hari8 Coverage Results" MODIFIED="1736601649711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$qr_generate.coverage" NAME="qr-generate Coverage Results" MODIFIED="1736077553131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$day13module.coverage" NAME="day13module Coverage Results" MODIFIED="1736953169913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_module" />
     <SUITE FILE_PATH="coverage/opencv$hari10.coverage" NAME="hari10 Coverage Results" MODIFIED="1736691085612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari5.coverage" NAME="hari5 Coverage Results" MODIFIED="1736259000671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv$hari16.coverage" NAME="hari16 Coverage Results" MODIFIED="1737212763520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1737038191539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_game_budi" />
     <SUITE FILE_PATH="coverage/opencv$hari6.coverage" NAME="hari6 Coverage Results" MODIFIED="1736348185351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari11.coverage" NAME="hari11 Coverage Results" MODIFIED="1736777481123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari3.coverage" NAME="hari3 Coverage Results" MODIFIED="1736087315423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv$hari16_2.coverage" NAME="hari16_2 Coverage Results" MODIFIED="1737212897464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day16_Class" />
     <SUITE FILE_PATH="coverage/opencv$my_module.coverage" NAME="my_module Coverage Results" MODIFIED="1736948826243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_module" />
   </component>
 </project>
