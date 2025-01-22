@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a59db05a-6ceb-4a02-ac76-95ec2e6cd06a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day18_turtle/day18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day18_turtle/testdd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19-20_project/database_mahasiswa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19-20_project/name_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19-20_project/nim_file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day16_Class/tugas-hari16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day16_Class/tugas-hari16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day17_polymorphism_inheritance/day17.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17_polymorphism_inheritance/day17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day17_polymorphism_inheritance/kalku-cloudai.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17_polymorphism_inheritance/kalku-cloudai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day17_polymorphism_inheritance/kalkulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17_polymorphism_inheritance/kalkulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19-20_project/database_mahasiswa.py" beforeDir="false" afterPath="$PROJECT_DIR$/day19-20_project/database_mahasiswa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19-20_project/name_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day19-20_project/name_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19-20_project/nim_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day19-20_project/nim_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +80,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Fendy\BahasaPemrograman\python\opencv\day19-20_project" />
       <recent name="D:\Fendy\BahasaPemrograman\python\opencv\Day18_turtle" />
       <recent name="D:\Fendy\BahasaPemrograman\python\opencv\Day16_Class" />
       <recent name="D:\Fendy\BahasaPemrograman\python\opencv" />
@@ -132,6 +127,8 @@
       <workItem from="1737315898694" duration="612000" />
       <workItem from="1737464827469" duration="7267000" />
       <workItem from="1737507487773" duration="2000" />
+      <workItem from="1737507694327" duration="427000" />
+      <workItem from="1737551321389" duration="5114000" />
     </task>
     <servers />
   </component>
@@ -140,8 +137,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opencv$opencv_finger.coverage" NAME="opencv-finger Coverage Results" MODIFIED="1736469899989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/opencv$hari9.coverage" NAME="hari9 Coverage Results" MODIFIED="1736647589682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$kalku2.coverage" NAME="kalku2 Coverage Results" MODIFIED="1737300504141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17_polymorphism_inheritance" />
+    <SUITE FILE_PATH="coverage/opencv$hari9.coverage" NAME="hari9 Coverage Results" MODIFIED="1736647589682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari8.coverage" NAME="hari8 Coverage Results" MODIFIED="1736601649711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$qr_generate.coverage" NAME="qr-generate Coverage Results" MODIFIED="1736077553131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$day18.coverage" NAME="day18 Coverage Results" MODIFIED="1737316463266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day18_turtle" />
@@ -152,7 +149,7 @@
     <SUITE FILE_PATH="coverage/opencv$hari6.coverage" NAME="hari6 Coverage Results" MODIFIED="1736348185351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$hari3.coverage" NAME="hari3 Coverage Results" MODIFIED="1736087315423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$my_module.coverage" NAME="my_module Coverage Results" MODIFIED="1736948826243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_module" />
-    <SUITE FILE_PATH="coverage/opencv$database_mahasiswa.coverage" NAME="database_mahasiswa Coverage Results" MODIFIED="1737472094840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19-20_project" />
+    <SUITE FILE_PATH="coverage/opencv$database_mahasiswa.coverage" NAME="database_mahasiswa Coverage Results" MODIFIED="1737555200295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19-20_project" />
     <SUITE FILE_PATH="coverage/opencv$hari4.coverage" NAME="hari4 Coverage Results" MODIFIED="1736173123001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv$game2.coverage" NAME="game2 Coverage Results" MODIFIED="1736955827290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_game_budi" />
     <SUITE FILE_PATH="coverage/opencv$kalku_cloudai.coverage" NAME="kalku-cloudai Coverage Results" MODIFIED="1737300553836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17_polymorphism_inheritance" />
