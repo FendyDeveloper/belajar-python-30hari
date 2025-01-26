@@ -24,8 +24,16 @@ import tkinter as tk
 #
 # root.mainloop()
 
-def penjumlahan(event):
-    label.config(text=f'Hasil nya adalah : {float(entry1.get()) }{event}{float(entry2.get())}')
+def penjumlahan():
+    try:
+        nilai1 = float(entry1.get())
+        nilai2 = float(entry2.get())
+        hasil_sum = nilai1 + nilai2
+        label.config(text=f'Hasil nya adalah : {hasil_sum}')
+    except ValueError:
+        label.config(text="Please enter numeric values")
+        entry1.delete(0, tk.END)
+        entry2.delete(0, tk.END)
 
 
 root = tk.Tk()
