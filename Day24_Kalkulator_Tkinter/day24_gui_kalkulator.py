@@ -24,12 +24,10 @@ def calculate(symbol):
 
         for cek_triple in not_triple:
             if endcalculation == cek_triple:
-                calculation = calculation[-3]
+                endcalculation = calculation[-3]
                 if endcalculation == cek_triple and symbol == cek_triple:
                     calculation = calculation[:-1]
                     print(True)
-
-
 
     text_result.delete(1.0, tk.END)
     text_result.insert(1.0, calculation)
